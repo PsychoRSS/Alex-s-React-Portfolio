@@ -1,14 +1,21 @@
-import { useState } from 'react'
-import header from './components/header'
-import './App.css'
+import { useState } from 'react';
+import Header from './components/header'
+import Footer from './components/Footer';
+import Nav from './components/Navigation';
+import Project from './components/Project';
+// import './App.css'
+
 
 function App() {
   
 
   return (
-    <div>
-      
-    </div>
+    <Nav/>,
+
+    <Header/>,
+    <Project/>,
+
+    <Footer/>
   )
 }
 

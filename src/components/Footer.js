@@ -1,9 +1,13 @@
+import {Link} from 'react-router-dom'
+
 
 export default function Footer () {
 
     return (
         <div>
-            <footer>rawr Xd</footer>
+            <footer>
+                <Link ></Link>
+            </footer>
         </div>
     )
 }

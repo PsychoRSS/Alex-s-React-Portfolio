@@ -3,7 +3,7 @@ import Header from './components/header'
 import Footer from './components/Footer';
 import Nav from './components/Navigation';
 import Project from './components/Project';
-// import './App.css'
+import './assets/style.css'
 
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
     <Nav/>,
 
     <Header/>,
+    
     <Project/>,
 
     <Footer/>

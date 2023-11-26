@@ -1,4 +1,5 @@
-import Link from 'react-dom'
+import {Link} from 'react-router-dom'
+
 
 export default function Nav () {
 
@@ -6,10 +7,10 @@ export default function Nav () {
         <div>
         <nav>
             <ul>
-                <a href="#hiker">refratored</a>
-                <a href="#refratored">Hiking website</a>
-                <a href="#project-3">Porject 3</a>
-                <a href="#project-4">Project 4</a>
+                <Link to="#hiker">refratored </Link>
+                <Link to="#refratored">Hiking website</Link>
+                <Link to="#project-3">Porject 3</Link>
+                <Link to="#project-4">Project 4</Link>
             </ul>
         </nav>
         </div>

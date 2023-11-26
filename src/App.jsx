@@ -3,6 +3,7 @@ import Header from './components/header'
 import Footer from './components/Footer';
 import Nav from './components/Navigation';
 import Project from './components/Project';
+import AboutMe from './components/AboutME';
 import './assets/style.css'
 
 

@@ -5,7 +5,7 @@ export default function Project () {
     return (
         <div class="wrap">
             
-        <Link  to="https://psychorss.github.io/UMN-Module-1/"  id="hiker" class="projects" >
+        <Link  to="https://psychorss.github.io/UMN-Module-1/"  id="hiker" class="projects">
             
             <p>Refratored Project</p>
         </Link>
@@ -15,12 +15,12 @@ export default function Project () {
             <p>starbys-cup-corner-96ccb198e09a 2</p>
         </Link>
 
-        <Link to="https://jpbigley.github.io/parks-weather-app/" id="project-3" class="projects" >
+        <Link to="https://jpbigley.github.io/parks-weather-app/" id="project-3" class="projects">
             <p>Hiking api</p>
           
         </Link>
         
-        <Link to="https://psychorss.github.io/Cat-Picker/" id="project-4" class="projects" >
+        <Link to="https://psychorss.github.io/Cat-Picker/" id="project-4" class="projects">
             <p>Pet Picker</p>
            
         </Link>

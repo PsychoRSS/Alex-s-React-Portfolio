@@ -1,23 +1,24 @@
 import { useState } from 'react';
-import Header from './components/header'
+import Header from './components/Header'
 import Footer from './components/Footer';
 import Nav from './components/Navigation';
 import Project from './components/Project';
 import AboutMe from './components/AboutME';
-import './assets/style.css'
 
 
 function App() {
   
 
   return (
-    <Nav/>,
+    <Nav />,
 
-    <Header/>,
+    <Header />,
     
-    <Project/>,
+    <AboutMe />,
+    
+    <Project />,
 
-    <Footer/>
+    <Footer />
   )
 }
 

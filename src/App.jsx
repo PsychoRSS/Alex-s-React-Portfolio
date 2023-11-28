@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Header from './components/Header'
 import Footer from './components/Footer';
 import Nav from './components/Navigation';
@@ -10,6 +9,9 @@ function App() {
   
 
   return (
+    <ApolloProvider client={client}>
+      <>
+      <main>
     <Nav />,
 
     <Header />,
@@ -17,9 +19,19 @@ function App() {
     <AboutMe />,
     
     <Project />,
-
+    </main>
     <Footer />
+    </>
+    </ApolloProvider>
   )
 }
+
+<>
+  <Header />
+  <main>
+    <Outlet />
+  </main>
+  <Footer />
+</>
 
 export default App
